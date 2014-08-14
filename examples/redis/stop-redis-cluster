@@ -1,0 +1,6 @@
+ cluster/kubecfg.sh delete services/redismaster
+ cluster/kubecfg.sh delete services/redisslave
+ cluster/kubecfg.sh delete services/redismaster-external
+ cluster/kubecfg.sh delete pods/redis-master-2
+ cluster/kubecfg.sh delete replicationControllers/redisSlaveController
+ 
